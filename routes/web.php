@@ -17,10 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/exemplo', function () {
-    return view('exemplo');
-});
+Route::get('users', 'Users@index');
 
-Route::view('/view', 'exemplo');
-
-Route::redirect('/redirecionamento', 'exemplo');
+Route::get('users/{id}', 'Users@show');
