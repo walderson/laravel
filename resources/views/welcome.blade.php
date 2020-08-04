@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel: Formulário de dados
+                    Laravel: Métodos HTTP
                 </div>
 
                 <div class="links">
