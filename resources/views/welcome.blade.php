@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Laravel: Rotas
                 </div>
 
                 <div class="links">
@@ -95,7 +95,9 @@
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
                 <div class="links">
-                    <a href="exemplo">Exemplo</a>
+                    <a href="exemplo">Rota</a>
+                    <a href="view">View</a>
+                    <a href="redirecionamento">Redirecionamento</a>
                 </div>
             </div>
         </div>

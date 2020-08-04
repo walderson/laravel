@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/exemplo', function () {
     return view('exemplo');
 });
+
+Route::view('/view', 'exemplo');
+
+Route::redirect('/redirecionamento', 'exemplo');
