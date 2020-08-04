@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel: HTTP Client (guzzlehttp)
+                    Laravel: Validação de formulário
                 </div>
 
                 <div class="links">
@@ -95,7 +95,7 @@
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
                 <div class="links">
-                    <a href="posts">Posts</a>
+                    <a href="user">Formulário</a>
                 </div>
             </div>
         </div>
