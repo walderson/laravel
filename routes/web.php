@@ -17,6 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::view('exemplo', 'exemplo', ['name'=>'Jhou Tromundo']);
-
-Route::get('users', 'Users@index');
+Route::get('exemplo', function () {
+    return view('exemplo', [
+        'name'=>'John Wick'
+    ]);
+});

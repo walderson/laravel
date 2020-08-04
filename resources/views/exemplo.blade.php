@@ -1,2 +1,2 @@
-<h1>Página de exemplo</h1>
-<p>Bem vindo, {{$name}}</p>
+<!-- Componente -->
+<x-header title="Página de exemplo" :name="$name" />

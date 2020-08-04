@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel: View
+                    Laravel: Component (nova feature)
                 </div>
 
                 <div class="links">
@@ -95,8 +95,7 @@
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
                 <div class="links">
-                    <a href="exemplo">View</a>
-                    <a href="users">Controller</a>
+                    <a href="exemplo">View com componente</a>
                 </div>
             </div>
         </div>
