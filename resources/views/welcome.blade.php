@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel: Component (nova feature)
+                    Laravel: Formulário de dados
                 </div>
 
                 <div class="links">
@@ -95,7 +95,7 @@
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
                 <div class="links">
-                    <a href="exemplo">View com componente</a>
+                    <a href="user">Conta de Usuário</a>
                 </div>
             </div>
         </div>

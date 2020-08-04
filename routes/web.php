@@ -17,8 +17,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('exemplo', function () {
-    return view('exemplo', [
-        'name'=>'John Wick'
-    ]);
-});
+Route::view('user', 'user');
+Route::post('users', 'UsersController@index');
