@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel: Controller
+                    Laravel: View
                 </div>
 
                 <div class="links">
@@ -95,8 +95,8 @@
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
                 <div class="links">
+                    <a href="exemplo">View</a>
                     <a href="users">Controller</a>
-                    <a href="users/Mundo">Controller com parâmetro</a>
                 </div>
             </div>
         </div>

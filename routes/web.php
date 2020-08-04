@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('users', 'Users@index');
+Route::view('exemplo', 'exemplo', ['name'=>'Jhou Tromundo']);
 
-Route::get('users/{id}', 'Users@show');
+Route::get('users', 'Users@index');

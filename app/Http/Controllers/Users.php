@@ -8,11 +8,6 @@ class Users extends Controller
 {
     function index()
     {
-        return ['name'=>'Osmar Contato'];
-    }
-
-    function show($id)
-    {
-        return "Olá, ".$id;
+        return view('exemplo', ['name'=>'Osmar Contato']);
     }
 }
