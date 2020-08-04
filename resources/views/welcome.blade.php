@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel: Métodos HTTP
+                    Laravel: HTTP Client (guzzlehttp)
                 </div>
 
                 <div class="links">
@@ -95,7 +95,7 @@
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
                 <div class="links">
-                    <a href="user">Conta de Usuário</a>
+                    <a href="posts">Posts</a>
                 </div>
             </div>
         </div>
