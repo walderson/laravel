@@ -17,12 +17,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::view('login', 'login');
-Route::post('login', 'Autenticacao@login');
-Route::get('logout', 'Autenticacao@logout');
-
-Route::group(['middleware'=>'customAuth'], function () {
-    Route::get('perfil', function () {
-        return view('perfil');
-    });
-});
+Route::view('tarefas', 'tarefa');
+Route::post('tarefas', 'Tarefas@index');
