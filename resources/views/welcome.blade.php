@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel: Validação de formulário
+                    Laravel: Blade Template
                 </div>
 
                 <div class="links">
@@ -95,7 +95,7 @@
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
                 <div class="links">
-                    <a href="user">Formulário</a>
+                    <a href="users">Controler@index</a>
                 </div>
             </div>
         </div>

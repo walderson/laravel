@@ -6,12 +6,14 @@ use Illuminate\Http\Request;
 
 class UsersController extends Controller
 {
-    function index(Request $request)
+    function index()
     {
-        $request->validate([
-            'email'=>'required | email',
-            'endereco'=>'required | min: 3 | max: 10'
-        ]);
-        return $request->input();
+        $dados = [
+            'nome'=>'Albert',
+            'sobrenome'=>'Einstein',
+            'email'=>'albert@einstein.nom',
+            'endereco'=>'em algum lugar'
+        ];
+        return view('user', ['dados'=>$dados]);
     }
 }

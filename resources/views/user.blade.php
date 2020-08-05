@@ -1,23 +1,25 @@
-<h1>Validações de formulário</h1>
-@if($errors->any())
-<div>
-    <p>Os seguintes erros ocorreram:</p>
-    <ul>
-    @foreach($errors->all() as $err)
-    <li>{{ $err }}</li>
-    @endforeach
-    </ul>
-</div>
+<h1>View de Usuário</h1>
+
+Nome: {{ $dados['nome'].' '.$dados['sobrenome'] }}
+
+@if($dados['nome'] == 'Albert')
+<h2>Status: Gênio</h2>
+@else
+<h2>Status: Normal</h2>
 @endif
-<form action="users" method="post">
-    @csrf
-    <input type="email" name="email" placeholder="e-mail"><br>
-    @error('email')
-    <span style="color: red;">{{ $message }}</span><br>
-    @enderror
-    <input type="text" name="endereco" placeholder="endereco"><br>
-    @error('endereco')
-    <span style="color: red;">{{ $message }}</span><br>
-    @enderror
-    <button type="submit">Enviar dados</button>
-</form>
+
+<h2>Dados recebidos:</h2>
+<ul>
+    @foreach($dados as $key=>$value)
+    <li>{{ $key }}: {{ $value }}</li>
+    @endforeach
+</ul>
+
+<h2>Contando até dez:</h2>
+@for($i = 1; $i <= 10; $i++)
+{{ $i }}
+@endfor
+
+@include('form')
+
+<x-componente />
