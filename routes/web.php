@@ -17,4 +17,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::group(['middleware'=>'customAuth'], function() {
+    Route::get('home', function () {
+        return view('home');
+    });
+});
 Route::view('acessonaopermitido', 'acessonaopermitido');
