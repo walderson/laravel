@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel: Route Middleware
+                    Laravel: Chamando uma API
                 </div>
 
                 <div class="links">
@@ -95,7 +95,7 @@
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
                 <div class="links">
-                    <a href="user">Formulário</a>
+                    <a href="posts">Listagem de Posts</a>
                 </div>
             </div>
         </div>
