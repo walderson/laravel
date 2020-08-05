@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel: Blade Template Layout
+                    Laravel: Middleware Básico
                 </div>
 
                 <div class="links">
@@ -95,8 +95,8 @@
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
                 <div class="links">
-                    <a href="home">Página Inicial</a>
-                    <a href="perfil">Perfil de Usuário</a>
+                    <a href="/?age=19">Acesso permitido</a>
+                    <a href="/?age=17">Acesso negado</a>
                 </div>
             </div>
         </div>
