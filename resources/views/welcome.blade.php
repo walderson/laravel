@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel: Group Middleware
+                    Laravel: Route Middleware
                 </div>
 
                 <div class="links">
