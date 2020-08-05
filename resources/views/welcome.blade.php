@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel: Blade Template
+                    Laravel: Blade Template Layout
                 </div>
 
                 <div class="links">
@@ -95,7 +95,8 @@
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
                 <div class="links">
-                    <a href="users">Controler@index</a>
+                    <a href="home">Página Inicial</a>
+                    <a href="perfil">Perfil de Usuário</a>
                 </div>
             </div>
         </div>
