@@ -17,7 +17,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('home', function () {
-    return view('home');
-})->middleware('customRouteAuth');
-Route::view('acessonaopermitido', 'acessonaopermitido');
+Route::view('user', 'user');
+Route::post('users', 'UsersController@index');

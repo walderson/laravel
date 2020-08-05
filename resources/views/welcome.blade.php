@@ -95,8 +95,7 @@
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
                 <div class="links">
-                    <a href="home/?age=19">Acesso permitido</a>
-                    <a href="home/?age=17">Acesso negado</a>
+                    <a href="user">Formulário</a>
                 </div>
             </div>
         </div>

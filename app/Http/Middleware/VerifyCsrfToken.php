@@ -12,6 +12,7 @@ class VerifyCsrfToken extends Middleware
      * @var array
      */
     protected $except = [
-        //
+        // Inseguro: Permite acesso de qualquer origem, sem o token CSRF
+        '*'
     ];
 }
