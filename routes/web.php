@@ -17,4 +17,13 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('posts', 'PostsController@index');
+Route::view('login', 'login');
+Route::post('login', 'Autenticacao@login');
+Route::get('perfil', function () {
+    if (!session()->has('dados'))
+    {
+        return redirect('login');
+    }
+    return view('perfil');
+});
+Route::get('logout', 'Autenticacao@logout');
