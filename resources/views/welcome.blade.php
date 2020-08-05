@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel: Sessão de usuário
+                    Laravel: Sessão com Middleware
                 </div>
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
