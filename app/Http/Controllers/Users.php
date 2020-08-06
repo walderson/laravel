@@ -12,10 +12,10 @@ class Users extends Controller
         $dados = DB::table('users')
             ->select('users.name', 'produtos.categoria', 'produtos.nome')
             ->leftjoin('produtos', 'users.id', 'produtos.userid')
-            ->where('users.name', 'Chuck Norris')
+            ->orderBy('users.name', 'asc')
+            ->orderBy('produtos.categoria', 'asc')
+            ->orderBy('produtos.nome', 'asc')
             ->get();
-        echo '<pre>';
-        print_r($dados);
-        echo '</pre>';
+        return view('user', ['dados'=>$dados]);
     }
 }
