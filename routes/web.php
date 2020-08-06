@@ -17,5 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::view('tarefas', 'tarefa');
-Route::post('tarefas', 'Tarefas@index');
+Route::get('profile/{lang}', function($lang) {
+    App::setLocale($lang);
+    return view('profile');
+});
