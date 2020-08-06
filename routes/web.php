@@ -17,7 +17,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('profile/{lang}', function($lang) {
-    App::setLocale($lang);
-    return view('profile');
-});
+Route::view('foto', 'foto');
+Route::post('galeria', 'Galeria@store');

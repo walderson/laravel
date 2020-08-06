@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel: Localização
+                    Laravel: File Upload
                 </div>
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
@@ -94,8 +94,7 @@
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
                 <div class="links">
-                    <a href="profile/en">Profile page</a>
-                    <a href="profile/pt-br">Página do perfil</a>
+                    <a href="foto">Enviar foto</a>
                 </div>
             </div>
         </div>
