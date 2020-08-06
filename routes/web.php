@@ -17,5 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::view('foto', 'foto');
-Route::post('galeria', 'Galeria@store');
+Route::get('tabelas', 'DBController@index');

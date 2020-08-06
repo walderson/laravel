@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel: File Upload
+                    Laravel: Interagindo com o banco de dados
                 </div>
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
@@ -94,7 +94,7 @@
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
                 <div class="links">
-                    <a href="foto">Enviar foto</a>
+                    <a href="tabelas">Tabelas do banco de dados</a>
                 </div>
             </div>
         </div>
