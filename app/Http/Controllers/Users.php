@@ -9,8 +9,9 @@ class Users extends Controller
 {
     function index()
     {
-        //Aqui podemos também aplicar filtros, usar funções agregadoras,
-        //inserir, atualizar e excluir registros
-        return DB::table('users')->get();
+        $qtd = DB::table('users')->count();
+        $soma = DB::table('users')->sum('id');
+        $media = DB::table('users')->avg('id');
+        return ['qtd'=>$qtd, 'soma'=>$soma, 'media'=>$media];
     }
 }

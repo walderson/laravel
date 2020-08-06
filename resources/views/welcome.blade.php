@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel: Query Builder
+                    Laravel: Agregações
                 </div>
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
