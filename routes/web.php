@@ -17,4 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('tabelas', 'DBController@index');
+Route::get('users', 'Users@index');

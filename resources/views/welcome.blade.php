@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel: Interagindo com o banco de dados
+                    Laravel: Query Builder
                 </div>
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
@@ -94,7 +94,7 @@
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
                 <div class="links">
-                    <a href="tabelas">Tabelas do banco de dados</a>
+                    <a href="users">Usuários</a>
                 </div>
             </div>
         </div>
