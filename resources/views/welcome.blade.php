@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel: Armazenando dados de formulário
+                    Laravel: Atualizando dados por formulário
                 </div>
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
@@ -99,7 +99,8 @@
                     <a href="funcoes">Produtos: Métodos e Agregações</a>
                 </div>
                 <div class="links">
-                    <a href="form">Cadastrar Nova Empresa</a>
+                    <a href="novo">Cadastrar Nova Empresa</a>
+                    <a href="empresas/1/edit">Editar Empresa</a>
                 </div>
             </div>
         </div>

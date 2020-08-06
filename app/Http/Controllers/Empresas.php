@@ -15,4 +15,18 @@ class Empresas extends Controller
         $emp->endereco = $request->endereco;
         return $emp->save();
     }
+
+    function edit($id)
+    {
+        $empresa = Empresa::find($id);
+        return view('empresa-edit', ['id'=>$id, 'empresa'=>$empresa]);
+    }
+
+    function update(Request $request, $id)
+    {
+        $empresa = Empresa::find($id);
+        $empresa->nome = $request->nome;
+        $empresa->endereco = $request->endereco;
+        return $empresa->save();
+    }
 }

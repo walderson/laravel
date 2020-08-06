@@ -20,5 +20,7 @@ Route::get('/', function () {
 Route::get('list', 'Users@index');
 Route::get('produtos', 'Produtos@index');
 Route::get('funcoes', 'Produtos@funcoes');
-Route::view('form', 'empresa-form');
+Route::view('novo', 'empresa-novo');
 Route::post('empresas', 'Empresas@save');
+Route::get('empresas/{id}/edit', 'Empresas@edit');
+Route::patch('empresas/{id}', 'Empresas@update')->name('empresa.update');
