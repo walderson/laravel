@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel: Model Method e Aggregates
+                    Laravel: Armazenando dados de formulário
                 </div>
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
@@ -97,6 +97,9 @@
                     <a href="list">Usuários e Produtos</a>
                     <a href="produtos">Lista de Produtos</a>
                     <a href="funcoes">Produtos: Métodos e Agregações</a>
+                </div>
+                <div class="links">
+                    <a href="form">Cadastrar Nova Empresa</a>
                 </div>
             </div>
         </div>

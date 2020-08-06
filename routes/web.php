@@ -20,3 +20,5 @@ Route::get('/', function () {
 Route::get('list', 'Users@index');
 Route::get('produtos', 'Produtos@index');
 Route::get('funcoes', 'Produtos@funcoes');
+Route::view('form', 'empresa-form');
+Route::post('empresas', 'Empresas@save');
