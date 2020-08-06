@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 
 Route::get('list', 'Users@index');
+Route::get('produtos', 'Produtos@index');
