@@ -15,7 +15,7 @@ class Users extends Controller
             ->orderBy('users.name', 'asc')
             ->orderBy('produtos.categoria', 'asc')
             ->orderBy('produtos.nome', 'asc')
-            ->get();
-        return view('user', ['dados'=>$dados]);
+            ->paginate(2);
+        return view('list', ['dados'=>$dados]);
     }
 }

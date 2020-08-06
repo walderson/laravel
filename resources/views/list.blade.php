@@ -11,8 +11,11 @@
     <span>{{ $dado->nome }}</span>
 </div>
 @endforeach
+
+{{ $dados->links() }}
+
 <style>
-    span {
+    div span {
         color: red;
         display: inline-block;
         width: 100px;
@@ -20,5 +23,10 @@
         margin-bottom: 3px;
         margin-left: 3px;
         padding: 10px;
+    }
+
+    li {
+        list-style: none;
+        display: inline;
     }
 </style>

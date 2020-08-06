@@ -17,4 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('users', 'Users@index');
+Route::get('list', 'Users@index');

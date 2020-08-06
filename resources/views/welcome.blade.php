@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel: Listagem do Banco de Dados
+                    Laravel: Paginação
                 </div>
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
@@ -94,7 +94,7 @@
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
                 <div class="links">
-                    <a href="users">Usuários</a>
+                    <a href="list">Usuários e Pedidos</a>
                 </div>
             </div>
         </div>
