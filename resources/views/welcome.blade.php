@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel: Model
+                    Laravel: Model Method e Aggregates
                 </div>
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
@@ -96,6 +96,7 @@
                 <div class="links">
                     <a href="list">Usuários e Produtos</a>
                     <a href="produtos">Lista de Produtos</a>
+                    <a href="funcoes">Produtos: Métodos e Agregações</a>
                 </div>
             </div>
         </div>
